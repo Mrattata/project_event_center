@@ -3,7 +3,7 @@
 } */
 @font-face {
     font-family: punk_kid;
-    src: url(punk-kid/Punk_Kid/punk_kid.ttf);
+    src: url(punk_kid.ttf);
 }
 
 @font-face {
@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: punk_kid, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(32, 14, 227);
+    font-family: dracutaz, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(118, 8, 235);
 }
 
 
@@ -73,16 +73,31 @@ body {
     line-height: 1.6;
 }
 
+.hero_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.hero_image img{
+    width:100%;
+    border-radius: 25px;
+}
+
 .events {
-    font-family: dracutaz;
+    color:  rgb(253, 0, 219);
     margin-top: 20px;
     padding: 40px 20px;
-    background-color: rgb(0, 255, 234);
+    background-color: rgb(0, 0, 0);
     border-radius: 25px;
 }
 
 .event {
-    border: black 1px solid;
+    border: rgb(253, 0, 219) 1px solid;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
@@ -102,6 +117,16 @@ body {
     gap: 20px;
 }
 
+.site-footer{
+    margin-top: 10px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  rgb(118, 8, 235);
+    
+}
 /* Using grid without media queries and mobile responsive */
 /* .event-grid {
     display: grid;
