@@ -165,7 +165,31 @@ body {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
+.location{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.map{
+    border: rgb(253, 0, 219) 1px solid;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+}
   
+.hours{
+    border: rgb(253, 0, 219) 1px solid;
+    background-color: black;
+    color:  rgb(253, 0, 219);
+    margin: 5px;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 
 .site-footer{
