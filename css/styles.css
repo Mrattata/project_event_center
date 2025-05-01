@@ -1,6 +1,4 @@
-/* * {
-    border: 2px black solid;
-} */
+
 @font-face {
     font-family: punk_kid;
     src: url(punk_kid.ttf);
@@ -169,8 +167,10 @@ body {
 .location{
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .map{
@@ -191,6 +191,39 @@ body {
     padding-right: 100px;
 }
 
+.contact{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact form{
+    color: rgb(253, 0, 219);
+    border: rgb(253, 0, 219) 1px solid;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+#submit{
+    background-color:black; 
+    color: rgb(253, 0, 219);
+    border: rgb(253, 0, 219) 5px inset;
+    border-radius: 15px;
+    padding: 15px 32px;
+    align-self: center;
+    font-size: 16px;
+    margin-left: 130px;
+    margin-top: 15px;
+  }
+
+  #submit:hover{
+    background-color: rgb(253, 0, 219);
+    color:black;
+    border: rgb(55, 53, 53) 5px outset;
+  }
 
 .site-footer{
     margin-top: 10px;
@@ -203,10 +236,4 @@ body {
     
 
 }
-/* Using grid without media queries and mobile responsive */
-/* .event-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-} */
 
